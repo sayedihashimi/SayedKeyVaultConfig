@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{51D6A1B2-DBDB-47C4-AC54-D6A57CF4D013}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F8D0F30E-E3CF-47C2-ADDD-4E33327D0E31}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SayedKeyVaultConfig", "src\SayedKeyVaultConfig\SayedKeyVaultConfig.xproj", "{BEE3FCF5-9297-4478-BC7B-A161DBF390F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEE3FCF5-9297-4478-BC7B-A161DBF390F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE3FCF5-9297-4478-BC7B-A161DBF390F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE3FCF5-9297-4478-BC7B-A161DBF390F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE3FCF5-9297-4478-BC7B-A161DBF390F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEE3FCF5-9297-4478-BC7B-A161DBF390F5} = {51D6A1B2-DBDB-47C4-AC54-D6A57CF4D013}
+	EndGlobalSection
+EndGlobal
